@@ -34,7 +34,7 @@ After the freaking horrible v1, I have changed a lot to improve my FC as much as
 | **Barometer (BMP280)** | I2C1_SCL / I2C1_SDA | `PB8` / `PB9` | Internal Baro (4.7kΩ pull-ups) |
 | **Motors (DSHOT)** | DSHOT_CH1 / CH2 | `PB4` / `PB5` | TIM3_CH1, TIM3_CH2 (to J3 ESC) |
 | | DSHOT_CH3 / CH4 | `PB6` / `PB7` | TIM4_CH1, TIM4_CH4 (to J3 ESC) |
-| **Telemetry (ESP32-C3)** | UART3_TX / UART3_RX | `PB10` / `PB11` | DroneBridge Telemetry link |
+| **Telemetry (ESP32-S3)** | UART3_TX / UART3_RX | `PB10` / `PB11` | DroneBridge Telemetry link |
 | **RC Receiver (J4)** | UART1_TX / UART1_RX | `PA9` / `PA10` | Serial RX (CRSF / SBUS / IBUS) |
 | **GPS / Ext Sensor (J5)** | UART2_TX / UART2_RX | `PA2` / `PA3` | External GPS Serial Port |
 | | I2C1_SCL / I2C1_SDA | `PB8` / `PB9` | External Compass / Sensor Bus |
@@ -50,7 +50,7 @@ After the freaking horrible v1, I have changed a lot to improve my FC as much as
 - [x] V1.1 PCB design & layout completed (ready for manufacturing/bring-up).
 - [ ] Bring-up V1.1 integrated board (test power rails, USB mux swiSching, and onboard sensors).
 - [ ] Port and configure open-source flight firmware (Betaflight / INAV / ArduPilot target).
-- [ ] Bring-up ESP32-C3 DroneBridge telemetry link.
+- [ ] Bring-up ESP32-CS DroneBridge telemetry link.
 - [ ] Bench test with 4-in-1 ESC (DShot) & maiden flight test.
 
 **Firmware & Tools:** 
