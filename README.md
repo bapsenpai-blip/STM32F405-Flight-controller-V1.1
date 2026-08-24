@@ -1,7 +1,8 @@
 # STM32F405-Flight-controller-V1.1
 After the freaking horrible v1, I have changed a lot to improve my FC as much as possible.
-<img width="872" height="879" alt="image" src="https://github.com/user-attachments/assets/fe9fb763-bb51-4a63-b841-41ae00e42623" />
-<img width="793" height="822" alt="image" src="https://github.com/user-attachments/assets/b04aa622-9284-4daf-b37b-6d356533a2d9" />
+<img width="930" height="930" alt="RealFCv1 1" src="https://github.com/user-attachments/assets/4b17d8c7-d8d8-4c7b-a31a-9db40b86a533" />
+<img width="930" height="930" alt="RealFCv1 1-back" src="https://github.com/user-attachments/assets/9f82de0e-71c9-4453-a43d-ebbe5515305b" />
+
 
 ### Changes from the V1
 - Remove the SD card slot (took too much space). Using a blackbox instead.
